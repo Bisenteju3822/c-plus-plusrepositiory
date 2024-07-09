@@ -11,9 +11,15 @@ int add(int a,int b){
 int add;
 add=a+b;
 return add;
+int add(int a,int b){
+int add;
+add=a+b;
+return add;
 // we are add the sum of a number 
 int main(){
 	int n=5;
 	cout<<findSum(n);
 	return 0;
 }
+
+
